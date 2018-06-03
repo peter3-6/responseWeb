@@ -1,0 +1,19 @@
+.features{
+    padding-bottom: 50px;
+}
+.features1{
+    background:#ddd;
+}
+.features .tab-pane.fade{
+    margin-top: 40px;
+}
+.features .container h2{
+    text-align: center;
+    line-height: 50px;
+    margin-bottom:40px;
+}
+.features .container h4{
+    margin-top: 16px;
+    text-align: center;
+    line-height: 50px;
+}

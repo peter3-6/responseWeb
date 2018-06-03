@@ -1,0 +1,286 @@
+/*768px以下*/
+/*header start*/
+header #logo{
+    width: 75px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 5px;
+    margin: 5px 0 0 60px;
+    background: url("../images/logo.png")  no-repeat;
+    background-size: 75px 50px;
+}
+header .navbar-default .navbar-toggle{
+    border-color: #ff8533;
+}
+header .navbar-default .navbar-toggle:hover,
+header .navbar-default .navbar-toggle:focus{
+    background: #ff8533;
+}
+/*section start*/
+.pase1 h2,
+.pase2 .container h2,
+.pase3 .container h2,
+.pase4 .container h2,
+.pase5 .container h2,
+.pase6 .container h2{
+    text-align: center;
+    line-height: 50px;
+    margin-bottom:40px;
+}
+.pase1 .container{
+    min-height: 400px;
+    padding-top:60px;
+    background: url("../images/bg-banner.png") no-repeat;
+    background-size: 100% 100%;
+}
+.pase1 .btn-lg{
+    width: 130px;
+    position: relative;
+    left:50%;
+    top: 30px;
+    margin-left: -75px;
+    background: #FF8533;
+    color: #ffffff;
+    text-align: center;
+}
+.pase1 .btn-lg:hover,
+.pase1 .btn-lg:focus{
+    text-decoration: none;
+}
+.pase2{
+    margin: 30px 0 80px 0;
+}
+.pase2 .tab-pane.fade{
+    margin-top: 40px;
+}
+.pase3{
+    padding-bottom: 30px;
+    background: rgb(246,246,246);
+}
+.pase3 .thumbnail{
+    padding-top: 20px;
+     border: 0;
+ }
+.pase3 .caption{
+    text-align: center;
+}
+.pase4{
+    background: linear-gradient(#fff, #f5e7e1);
+}
+.pase4 .thumbnail{
+    padding-top: 20px;
+    border: 0;
+}
+.pase4 .caption{
+    text-align: center;
+}
+.pase4 .btn-lg{
+    width: 130px;
+    position: relative;
+    left:50%;
+    top: 64px;
+    margin-left: -75px;
+    background: #FF8533;
+    color: #ffffff;
+    text-align: center;
+}
+.pase4 .btn-lg:hover,
+.pase4 .btn-lg:focus{
+    text-decoration: none;
+}
+.pase4 .paes4_bot{
+    height: 150px;
+    margin: 30px 0 0 0;
+    background: url("../images/pase4-bj.png") no-repeat;
+    background-position:50%;
+}
+.pase5{
+    margin: 30px 0 0 0 ;
+}
+.pase5 .container .row{
+    margin: 36px 0 50px 0;
+}
+.pase5 .caption{
+    text-align: center;
+}
+.pase5 .thumbnail{
+    border: 0;
+}
+.pase6{
+    background: rgb(241,241,241);
+    padding-top: 30px;
+}
+.pase6 .container .btn-lg{
+    width: 130px;
+    position: relative;
+    left:50%;
+    top: -70px;
+    margin-left: -75px;
+    background: #FF8533;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 20px;
+}
+.pase6 .container .btn-lg:hover,
+.pase6 .container .btn-lg:focus{
+    text-decoration: none;
+}
+.pase6 .container .paes6_bot{
+    margin-top: 60px;
+    height: 274px;
+    background:  url("../images/pase6-1.png") no-repeat;
+    background-size: 100%;
+}
+/*section end*/
+/*footer start*/
+footer .container h3{
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+}
+footer .caption{
+    text-align: center;
+}
+footer .thumbnail{
+    border: 0;
+    margin: 10px 0;
+}
+footer .copyright{
+    border-top: 1px solid #d9d9d9;
+}
+footer .copyright .container{
+    padding: 15px 0;
+    text-align: center;
+}
+/*footerend*/
+/*768px以上*/
+@media (min-width: 768px) {
+    header #logo{
+        height: 0px;
+    }
+}
+/*992px以上*/
+@media (min-width: 992px) {
+
+}
+/*1100px以上 start*/
+@media (min-width: 1200px) {
+    /*header start*/
+    header{
+        height: 60px;
+        background: #000;
+    }
+    header #logo{
+        width: 75px;
+        height: 50px;
+        display: inline-block;
+        margin-top: 5px;
+        margin: 5px 0 0 100px;
+        background: url("../images/logo.png")  no-repeat;
+        background-size: 75px 50px;
+
+    }
+    header nav.navbar{
+        overflow: hidden;
+        margin: 0 auto;
+        background: #585757;
+    }
+    header .container-fluid{
+        width: 1100px;
+    }
+    header>.navbar-default{
+        background: transparent;
+        border-color:transparent ;
+    }
+    header .navbar-default .navbar-nav > li > a{
+        color: #fff;
+    }
+    header .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus
+    {
+        color: #ff8533 ;
+    }
+    .nav.navbar-nav.navbar-left,
+    .nav.navbar-nav.navbar-right
+    {
+        margin-top: 5px;
+        margin-right: 20px;
+    }
+    .nav.navbar-nav.navbar-left{
+        margin-left: 100px;
+    }
+    /*header end*/
+    /*section start    */
+    .pase1{
+        background: linear-gradient(#fff, #f5e7e1);
+    }
+    .pase1 .container{
+        min-height: 600px;
+        padding-top: 130px;
+    }
+    .pase1 .container h2{
+        line-height: 60px;
+        text-align: center;
+    }
+    .pase1 .btn-lg{
+        width: 130px;
+        position: relative;
+        left:50%;
+        top: 30px;
+        margin-left: -75px;
+        background: #FF8533;
+        color: #ffffff;
+        text-align: center;
+    }
+    .pase1 .btn-lg:hover,
+    .pase1 .btn-lg:focus{
+        text-decoration: none;
+    }
+    .pase2 .tab-pane.fade>img{
+        position: relative;
+        left: 50%;
+        margin-left: -467px;
+    }
+    .pase3{
+        margin: 80px 0 0px 0;
+    }
+    .pase3 .container{
+        padding-top: 80px;
+    }
+    .pase6{
+        padding-bottom: 50px;
+    }
+    .pase6 .container .btn-lg{
+        top: 0px;
+    }
+    /*section end*/
+    /*footer start*/
+    footer .container h3{
+        text-align: left;
+    }
+    footer .thumbnail{
+        margin: 50px 0;
+    }
+    /*footer end*/
+}
+/*1100px以上 end*/
+/*产品特性*/
+.features{
+    padding-bottom: 50px;
+}
+.features1{
+    background:#ddd;
+}
+.features .tab-pane.fade{
+    margin-top: 40px;
+}
+.features .container h2{
+    text-align: center;
+    line-height: 50px;
+    margin-bottom:40px;
+}
+.features .container h4{
+    margin-top: 16px;
+    text-align: center;
+    line-height: 50px;
+}
